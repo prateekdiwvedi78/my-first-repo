@@ -62,7 +62,7 @@ loginForm.addEventListener("submit", async (e) => {
             password
         );
 
-        alert("Login Successful!");
+        alert("Login Successfully!");
 
         console.log(userCredential.user);
 

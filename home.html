@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Landing Page</title>
+
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="navbar-content">
+
+            <div class="nav-left">
+                <i class="fa-brands fa-linkedin linkedin-logo"></i>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <a href="index.html" class="nav-item">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                <div class="nav-item"><i class="fa-solid fa-user-group"></i><span>My Network</span></div>
+
+                <div class="nav-item"><i class="fa-solid fa-briefcase"></i><span>Jobs</span></div>
+
+                <a href="/src/message.html" class="nav-item">
+                    <i class="fa-solid fa-comment"></i>
+                    <span>Message</span>
+                </a>
+
+                <div class="nav-item"><i class="fa-solid fa-bell"></i><span>Notifications</span></div>
+
+                <div class="nav-item">
+                    <img src="img.jpeg" class="nav-profile" alt="">
+                    <span>Me</span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= MAIN ================= -->
+    <div class="main-content">
+
+        <!-- LEFT -->
+        <div class="row1">
+            <div class="left-container">
+
+                <div class="container">
+
+                    <img src="banner.jpg" class="top-image" alt="">
+                    <img src="img.jpeg" class="profile-pic" alt="">
+
+                    <div class="profile-info">
+                        <h2 id="userName">Prateek Dwivedi</h2>
+                        <p id="userEmail">prateekdiwvedi19@gmail.com</p>
+                        <p id="userCountry">India</p>
+                    </div>
+                    <hr>
+
+                    <div class="profile-stats">
+                        <div class="stat"><span>Profile viewers</span><strong>87</strong></div>
+                        <div class="stat"><span>Post impressions</span><strong>524</strong></div>
+                        <div class="stat"><span>Connections</span><strong>500+</strong></div>
+                    </div>
+
+                    <hr>
+
+                    <div class="premium">
+                        <i class="fa-solid fa-star"></i>
+                        <div>
+                            <h4>Try Premium</h4>
+                            <p>Access exclusive tools & insights.</p>
+                        </div>
+                    </div>
+
+                    <div class="saved-items">
+                        <i class="fa-solid fa-bookmark"></i>
+                        <span>My Items</span>
+                    </div>
+
+                </div>
+
+                <div class="second-container">
+                    <h2>About Me</h2>
+                    <p>Learning web development to enhance my skills.</p>
+                </div>
+
+                <div class="third-container">
+                    <h2>My Activities</h2>
+                    <p><i class="fa-solid fa-bookmark"></i>Saved</p>
+                    <p><i class="fa-solid fa-calendar"></i>Events</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Agra, Uttar Pradesh</p>
+                    <p><i class="fa-solid fa-graduation-cap"></i>Sharda University Agra</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CENTER -->
+        <div class="center-container">
+
+            <div class="start-post-card">
+
+                <div class="center-content">
+                    <img src="img.jpeg" class="small-pfp" alt="">
+                    <input id="startPost" type="text" placeholder="Start a post" readonly>
+                </div>
+                <div class="post-options">
+
+                    <div class="option">
+                        <i class="fa-solid fa-image"></i><span>Media</span>
+                    </div>
+
+                    <div class="option">
+                        <i class="fa-solid fa-calendar"></i><span>Event</span>
+                    </div>
+
+                    <div class="option">
+                        <i class="fa-solid fa-pen"></i><span>Write</span>
+                    </div>
+
+                </div>
+            </div>
+            <div id="postsContainer"></div>
+            <!-- Feed Post 1 -->
+            <div class="feed-post">
+
+                <div class="post-header">
+                    <img src="img.jpeg" class="post-profile" alt="">
+                    <div>
+                        <h3>Prateek Dwivedi</h3>
+                        <p>Learning Front-End Development • 2h</p>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Just completed my profile page using HTML and CSS. Next step is making it responsive! 💻✨
+                </p>
+
+                <img src="banner.jpg" class="post-image" alt="">
+
+                <div class="likes">👍 You and 25 others liked this</div>
+
+                <div class="post-actions">
+                    <div class="action"><i class="fa-regular fa-thumbs-up"></i><span>Like</span></div>
+                    <div class="action"><i class="fa-regular fa-comment"></i><span>Comment</span></div>
+                    <div class="action"><i class="fa-solid fa-repeat"></i><span>Repost</span></div>
+                    <div class="action"><i class="fa-regular fa-paper-plane"></i><span>Send</span></div>
+                </div>
+
+            </div>
+
+            <!-- Feed Post 2 -->
+            <div class="feed-post">
+
+                <div class="post-header">
+                    <img src="img.jpeg" class="post-profile" alt="">
+                    <div>
+                        <h3>Prateek Dwivedi</h3>
+                        <p>Web Development Student</p>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Excited to share my LinkedIn clone built using HTML and CSS! 🚀
+                    Learning something new every day.
+                </p>
+
+                <img src="banner.jpg" class="post-image" alt="">
+
+                <div class="post-actions">
+                    <div class="action"><i class="fa-regular fa-thumbs-up"></i><span>Like</span></div>
+                    <div class="action"><i class="fa-regular fa-comment"></i><span>Comment</span></div>
+                    <div class="action"><i class="fa-solid fa-repeat"></i><span>Repost</span></div>
+                    <div class="action"><i class="fa-regular fa-paper-plane"></i><span>Send</span></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+
+            <div class="news-card">
+                <h3>LinkedIn News</h3>
+                <p>🔥 Web Development Trends</p>
+                <p>📈 AI keeps growing</p>
+                <p>💼 Hiring is increasing</p>
+            </div>
+
+            <div class="feed-card">
+                <h3>Add to your feed</h3>
+
+                <div class="follow">
+                    <img src="img.jpeg" alt="">
+                    <div>
+                        <h4>OpenAI</h4>
+                        <button>+ Follow</button>
+                    </div>
+                </div>
+                <div class="follow">
+                    <img src="img.jpeg" alt="">
+                    <div>
+                        <h4>Microsoft</h4>
+                        <button>+ Follow</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-card">
+                <a href="#">About</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy & Terms</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business Services</a>
+                <a href="#">Get the App</a>
+                <a href="#">More</a>
+
+                <p>© 2026 Prateek Network</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="popup" id="postPopup">
+
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <h2>Create a post</h2>
+
+                <span class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+
+            </div>
+
+            <div class="popup-user">
+                <img src="img.jpeg" class="small-pfp">
+
+                <h3>Prateek Dwivedi</h3>
+            </div>
+            <textarea id="postText" placeholder="What do you want to talk about?"></textarea>
+
+            <button class="post-btn" id="postbtn">
+                Post
+            </button>
+
+        </div>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/profile.js"></script>
+    <script type="module" src="/src/post.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    background:#f3f2ef;
+    padding:40px 0;
+}
+.login-container{
+    width:430px;
+    background:#fff;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+}
+.logo{
+    font-size:50px;
+    color:#0A66C2;
+    margin-bottom:15px;
+}
+
+.login-container h2{
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.login-container p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#0A66C2;
+}
+
+form a{
+    text-decoration:none;
+    color:#0A66C2;
+    font-weight:600;
+}
+
+button{
+    padding:14px;
+    border:none;
+    border-radius:30px;
+    background:#0A66C2;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#004182;
+}
+
+.signup{
+    margin-top:20px;
+    text-align:center;
+}
+
+.signup a{
+    color:#0A66C2;
+    text-decoration:none;
+    font-weight:bold;
+}
+#emailError,#nameError,#surnameError,#passwordError{
+    color:red;
+    font-size:13px;
+    display:block;
+    margin:5px 0 12px;
+}
+input[type="date"]{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+}
+label{
+    display:block;
+    font-size:14px;
+    font-weight:700;
+    color:#444;
+}
+.gender{
+    display:flex;
+    gap:20px;
+    margin:10px 0 15px;
+    align-items:center;
+}
+
+.gender input{
+    width:auto;
+    margin:0 5px 0 0;
+}
+
+.gender label{
+    margin-right:15px;
+    font-size:15px;
+    cursor:pointer;
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin:10px 0 20px;
+    align-items:center;
+}
+
+.skills input{
+    width:auto;
+    margin-right:5px;
+}
+
+.skills label{
+    margin-right:15px;
+    cursor:pointer;
+}

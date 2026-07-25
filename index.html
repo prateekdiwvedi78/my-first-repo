@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/src/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="login-container">
+
+        <i class="fa-brands fa-linkedin logo"></i>
+
+        <h2>Sign in</h2>
+        <p>Stay updated on your professional world.</p>
+
+        <form id="loginForm">
+
+            <input type="email"
+                   id="email"
+                   placeholder="Email or Phone"
+                   required>
+
+            <small id="emailError"></small>
+
+            <input type="password"
+                   id="password"
+                   placeholder="Password"
+                   required>
+
+            <a href="#">Forgot Password?</a>
+
+            <button type="submit">
+                Sign In
+            </button>
+
+        </form>
+
+        <p class="signup">
+            New to LinkedIn?
+            <a href="/src/signup.html">Join now</a>
+        </p>
+
+    </div>
+
+    <script type="module" src="/src/login.js"></script>
+
+</body>
+</html>
